@@ -5,6 +5,8 @@ var express = require('express'),
     fs = require('fs'),
     app = express();
 
+app.set('env', 'development');
+
 app.use(morgan('combined', {
     stream: fs.createWriteStream(__dirname + '/logs/access.log', { flags: 'a' })
 }));
