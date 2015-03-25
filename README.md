@@ -10,6 +10,11 @@ After that run:
 bin/build.sh
 ```
 
+You can check if application is tester. Just run:
+```
+bin/test.sh
+```
+
 And when command finish, you can start the app:
 ```
 bin/run.sh
